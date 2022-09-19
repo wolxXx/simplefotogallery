@@ -1,0 +1,35 @@
+{
+  "name": "wolxxx/simplefoto",
+  "description": "just a simple image gallery",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "wolxXx",
+      "email": "devops@wolxXx.de"
+    }
+  ],
+  "config": {
+    "secure-http": false,
+    "discard-changes": true,
+    "preferred-install": {
+      "*": "dist"
+    },
+    "allow-plugins": {
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Application\\": "src"
+    }
+  },
+  "repositories": [
+  ],
+  "require-dev": {
+  },
+  "require": {
+    "php": "~8.2"
+  },
+  "scripts": {
+  }
+}
